@@ -1,19 +1,19 @@
 /*
-* CS 193 Homework 3
-*
-* TODO: READ THESE INSTRUCTIONS!
-*
-* The comments in the methods are for clarification. No tricks or riddles.
-*
-* The overall algorithm should not change. Don't focus on improving the runtime. 
-*
-* Debug in whichever way you feel is best.
-*
-* IT WILL BE AN AUTOMATIC 0, IF YOU MAKE CHANGES TO TESTCASES.JAVA
-*
-* Bonus: Understand these methods! They are helpful in interviews :)
-* 
-*/
+ * CS 193 Homework 3
+ *
+ * TODO: READ THESE INSTRUCTIONS!
+ *
+ * The comments in the methods are for clarification. No tricks or riddles.
+ *
+ * The overall algorithm should not change. Don't focus on improving the runtime.
+ *
+ * Debug in whichever way you feel is best.
+ *
+ * IT WILL BE AN AUTOMATIC 0, IF YOU MAKE CHANGES TO TESTCASES.JAVA
+ *
+ * Bonus: Understand these methods! They are helpful in interviews :)
+ *
+ */
 
 
 import java.util.ArrayList;
@@ -92,7 +92,7 @@ public class Questions {
         }
         return answer;
     }
-    
+
     // Task 6
     public static int reverseNumber(int input) {
         // reverse the number
@@ -106,9 +106,9 @@ public class Questions {
         }
         return answer;
     }
-    
+
     //EXTRA CREDIT BELOW HERE
-    
+
     // Task 7
     // Look for a specific element in sorted array
     // keep in mind for this algorithm to work, array HAS to be sorted
@@ -128,7 +128,7 @@ public class Questions {
         }
         return -1; // element is not found
     }
-    
+
     // Task 8
     public static int countDuplicates(String input) {
         // Count the number of letters that are duplicated
@@ -199,6 +199,6 @@ public class Questions {
     public static void main(String[] args) {
         // Example given below
         // Run reverseNumber with your own input
-        System.out.println(reverseNumber(54321)); 
+        System.out.println(reverseNumber(54321));
     }
 }
